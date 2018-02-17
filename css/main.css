@@ -1,0 +1,35 @@
+.BA img{
+	width: 100%;
+	height: auto;
+	max-height: 90vh;
+}
+.gallery img{
+	display: inline-block;
+	width: 50%;
+	height: auto;
+	margin-bottom: -10px;
+}
+nav{
+	padding-top: 20px;
+	font-size: 18px;
+}
+.cur{
+	border-bottom: 2px solid #fff;
+}
+header.fixed-header.transparent.light nav > ul > li > a.cur{
+	border-bottom: 2px solid #333;
+}
+.master{
+	margin-bottom: 50px;
+}
+.masters h3{
+	margin-top: 0;
+}
+.masters p{
+	font-size: 14px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.caption,.caption-mockup,.caption-left,body{
+	hyphens:none;
+}
